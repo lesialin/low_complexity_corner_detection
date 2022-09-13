@@ -1,10 +1,12 @@
 # Low-Complexity Pruning for Accelerating Corner Detection
 
-This is the implementation of Shi-Tomasi-Corner detection in low-complexity version, the algorithm is from [Low-Complexity Pruning for Accelerating Corner Detection](https://ieeexplore.ieee.org/document/6271582), the flow is
+This is the implementation of Shi-Tomasi-Corner detection in low-complexity version, the method is from [Low-Complexity Pruning for Accelerating Corner Detection](https://ieeexplore.ieee.org/document/6271582),
+
+the basic algorithm flow is
 
 ![](image/lcp_corner.png)
 
-
+and you can refer the paper for more algorithm detail.
 
 **usage**
 
@@ -14,7 +16,6 @@ cd build
 cmake ..
 cmake --build
 cd ../prebuilt
-
 ./corner_detect xxx.jpg
 
 ```
@@ -31,10 +32,8 @@ modify configuration as you need.
     "min_dist":20,
     "t1":0.01,
     "t2":0.01
-    
-
 }
-
+```
 
 
 ## Result
@@ -45,7 +44,6 @@ modify configuration as you need.
 There are  7791 corner candidate, 88.11 % corners be punned 
 There are 2553 corners to be detected!
 There are 49 corners after NMS
-
 ```
 
 ![](prebuilt/blox.png)
@@ -82,8 +80,6 @@ There are 183 corners after NMS
 ```
 
 ![](prebuilt/lab.png)
-
-
 
 
 ## Reference
