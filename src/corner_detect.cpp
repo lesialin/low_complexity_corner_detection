@@ -2,8 +2,6 @@
 #include <cmath>
 using json = nlohmann::json;
 
-// reference: https://github.com/coder-mano/Shi-Tomasi-Corner-Detector
-
 uint8_t g_block_size = 3;
 uint8_t g_guassian_3x3[9] = {1, 2, 1, 2, 4, 2, 1, 2, 1};
 int8_t g_sobel_x[9] = {-1, 0, 1, -2, 0, 2, -1, 0, 1};
