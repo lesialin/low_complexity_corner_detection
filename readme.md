@@ -1,10 +1,6 @@
 # Low-Complexity Pruning for Accelerating Corner Detection
 
-This is the implementation of Shi-Tomasi-Corner detection in low-complexity version, the algorithm is from [Low-Complexity Pruning for Accelerating Corner Detection](https://ieeexplore.ieee.org/document/6271582), the basic concept is 
-
-![](image/algo.png)
-
-the flow is
+This is the implementation of Shi-Tomasi-Corner detection in low-complexity version, the algorithm is from [Low-Complexity Pruning for Accelerating Corner Detection](https://ieeexplore.ieee.org/document/6271582), the flow is
 
 ![](image/lcp_corner.png)
 
